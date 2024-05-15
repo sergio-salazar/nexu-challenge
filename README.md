@@ -8,10 +8,10 @@ You must have installed NodeJS. Download and install NodeJS. [https://nodejs.org
 Clone the repository from Github. [https://github.com/sergio-salazar/nexu-challenge.git]
 
 ## `npm install`
-Run the command in the console to download all the necessary node_modules.
+Run the command `npm install` in the console to download all the necessary node_modules.
 
 ## `npm run dev`
-Run the command in the console, and then you can make requests on [http://localhost:4000].
+Run the command `npm run dev` in the console, and then you can make requests on [http://localhost:4000].
 
                               GET    http://localhost:4000/brands
                               GET    http://localhost:4000/brands/:id/models
