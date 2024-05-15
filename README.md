@@ -1,16 +1,16 @@
 # nexu-challenge
 Backend application for the Nexu Challenge. This application was developed with NodeJS and Express.
 
-# Installation
+## Installation
 You must have installed NodeJS. Download and install NodeJS. [https://nodejs.org/en]
 
-## Repository
+### Repository
 Clone the repository from Github. [https://github.com/sergio-salazar/nexu-challenge.git]
 
-## `npm install`
+### `npm install`
 Run the command `npm install` in the console to download all the necessary node_modules.
 
-## `npm run dev`
+### `npm run dev`
 Run the command `npm run dev` in the console, and then you can make requests on [http://localhost:4000].
 
                               GET    http://localhost:4000/brands
@@ -20,11 +20,11 @@ Run the command `npm run dev` in the console, and then you can make requests on 
                               PUT    http://localhost:4000/models/:id
                               GET    http://localhost:4000/models
 
-# Database
+## Database
 For database, I used MySQL. You have to run the next query to create the database with the tables and data.
 
-# Volcado de tabla brands
-# ------------------------------------------------------------
+Volcado de tabla brands
+------------------------------------------------------------
 
 DROP TABLE IF EXISTS `brands`;
 
@@ -51,8 +51,8 @@ VALUES
 UNLOCK TABLES;
 
 
-# Volcado de tabla models
-# ------------------------------------------------------------
+Volcado de tabla models
+------------------------------------------------------------
 
 DROP TABLE IF EXISTS `models`;
 
